@@ -12,7 +12,7 @@ function btnClicked() {
   } else if (question === "does a magic 8 ball actually work?") {
     document.getElementById("answer").innerHTML = "How Dare You Dout Me!";
   } else if (question === "is javascript awesome?") {
-    document.getElementById("Of Course!");
+    document.getElementById("answer").innerHTML = "Of Course!";
   } else if (randNum < 0.2) {
     document.getElementById("answer").innerHTML = "Without a Doubt.";
   } else if (randNum < 0.4) {
